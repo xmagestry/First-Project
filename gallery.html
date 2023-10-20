@@ -15,47 +15,67 @@
 </head>
 
 <body>
-	<header class="header">
-	<nav class="sticky">
-		<div class="nav-links">
-			<ul>
-				<li><a href="home.html#home">HOME</a></li>
-				<li><a href="about.html#about">ABOUT</a></li>
-				<li><a href="#gallery">GALLERY</a></li>
-				<li><a href="portfolio.html#portfolio">PORTFOLIO</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
-			</ul>
-		</div>
+
+	<nav class="navbar">
+		<ul>
+			<li><a href="home.html#home"><img src="images/logo.jpeg" class="logo"></a></li>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="about.html#about">ABOUT</a></li>
+			<li><a href="gallery.html#gallery">GALLERY</a></li>
+			<li><a href="portfolio.html#portfolio">PORTFOLIO</a></li>
+			<li><a href="contact.html#contact">CONTACT</a></li>
+		</ul>
 	</nav>
-	</header>
 
-	<!---ABOUT US--->
+<section id="home">
+<div class="homepage">
+  <h1>Welcome to my Homepage</h1>
+  <p>Click the button below to explore more features!</p>
+  <a href="home.html#home">Explore more</a>
+</div>
+</section>
 
-	<section id="about" class="about">
-		<div class="main">
-		  <img src="images/about-image.jpg">
+<!---ABOUT US--->
+<section id="about" class="about">
+	<div class="main">
+	  <img src="images/about-image.jpg">
+	</div>
+	  <div class="about-text">
+		<h1>About me</h1>
+		<h3>Programmer <span>& Developer</span></h3>
+		<p>Hello! my name is Jerick B. Dellosa, I'm now 19 years old. currently studying at Bestlink College of the Philippines taking Bachelor of Science in Information Technology, And i currently living in Montalban Rizal.</p>
 		</div>
-		  <div class="about-text">
-			<h1>About me</h1>
-			<h3>Programmer <span>& Developer</span></h3>
-			<p> Jerick B. Dellosa is 19 years old, And currently studying at Bestlink College of the Philippines. Taking the Bachelor of Science in Information Technology, And currently living in Montalban Rizal.</p>
-			</div>
-		</section>
+	</section>
 
 
-	<!---GALLERY--->
-	<section>
-		<div id="gallery" class="gallery">
+
+<!---GALLERY--->
+	<section id="gallery" class="galleryContainer">
+		<div class="gallery-text">
 			<h1>MY GALLERY</h1>
-			<a href="images/1.jpg"><img id="images-gal" src="images/1.jpg"></a>
-			<a href="images/2.jpg"><img id="images-gal" src="images/2.jpg"></a>
-			<a href="images/3.jpg"><img id="images-gal" src="images/3.jpg"></a>
-			<a href="images/4.jpg"><img id="images-gal" src="images/4.jpg"></a>
-			<a href="images/5.jpg"><img id="images-gal" src="images/5.jpg"></a>
-			<a href="images/6.jpg"><img id="images-gal" src="images/6.jpg"></a>
-			<a href="images/7.jpg"><img id="images-gal" src="images/7.jpg"></a>
-			<a href="images/8.jpg"><img id="images-gal" src="images/8.jpg"></a>
 		</div>
+		<div class="gallery-slider">
+			<div class="slider">
+			<img id="slide-1" src="images/1.jpg"></a>
+			<img id="slide-2" src="images/2.jpg"></a>
+			<img id="slide-3" src="images/3.jpg"></a>
+			<img id="slide-4" src="images/4.jpg"></a>
+			<img id="slide-5" src="images/5.jpg"></a>
+			<img id="slide-6" src="images/6.jpg"></a>
+			<img id="slide-7" src="images/7.jpg"></a>
+			<img id="slide-8" src="images/8.jpg"></a>
+		</div>
+		<div class="slider-nav">
+			<a href="#slide-1"></a>
+			<a href="#slide-2"></a>
+			<a href="#slide-3"></a>
+			<a href="#slide-4"></a>
+			<a href="#slide-5"></a>
+			<a href="#slide-6"></a>
+			<a href="#slide-7"></a>
+			<a href="#slide-8"></a>
+		</div>
+	</div>
 	</section>
 
 
@@ -72,28 +92,26 @@
 		<br />
 	</section>
 
-	
+
 <!---CONTACT--->
-	<section id="contact">
-		<footer>
-		<div class="footerContact">
-			<h3>My contact's:</h3>
-			<ul>
-				<li><a href="https://www.facebook.com/peysbuk.cum/" target="_eblank"><i class="fa-brands fa-facebook"></i></a></li>
-				<li><a href="https://www.instagram.com/_wydjerick/" target="_eblank"><i class="fa-brands fa-instagram"></i></a></li>
-				<li><a href="https://x.com/stfu_jeksks" target="_eblank"><i class="fa-brands fa-twitter"></i></a></li>
-				<li><a href="https://discord.com" target="_eblank"><i class="fa-brands fa-discord"></i></a></li>
-				<li><a href="telegram.com/zsixck" target="_eblank"><i class="fa-regular fa-paper-plane"></i></a></li>
-			</ul>
-		</div>
-		<div class="footerBottom">
-			<p>© All rights reserved.</p>
-		</div>
-	</footer>
-	</section>
+<section id="contact">
+	<footer>
+	<div class="footerContact">
+		<h3>My contact's:</h3>
+		<ul>
+		<li><a href="https://www.facebook.com/peysbuk.cum/" target="_eblank"><img src="images/icons/fb.png"></a></li>
+		<li><a href="https://www.instagram.com/_wydjerick/" target="_eblank"><img src="images/icons/ig.png"></a></li>
+		<li><a href="https://x.com/stfu_jeksks" target="_eblank"><img src="images/icons/X.png"></a></li>
+		<li><a href="https://discord.com" target="_eblank"><img src="images/icons/dc.png"></a></li>
+		<li><a href="telegram.com/zsixck" target="_eblank"><img src="images/icons/tg.png"></a></li>
+		</ul>
+	</div>
+	<div class="footerBottom">
+		<p>© All rights reserved.</p>
+	</div>
+</footer>
+</section>
 
-	<a class="topbtn" href="#"><i class="fa-solid fa-circle-arrow-up"></i></a>
-
-	<script src="https://kit.fontawesome.com/f0d52dae42.js" crossorigin="anonymous"></script>
+	<a href="#"><img src="images/icons/arrow.png" class="topbtn"></a>
 </body>
 </html>
