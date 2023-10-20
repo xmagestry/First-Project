@@ -15,7 +15,7 @@ html {
 #home {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -35,7 +35,7 @@ html {
 
 .navbar ul{
  list-style-type: none;
- background-color: #000000;
+ background-color: rgb(0, 0, 0);
  padding: 5px;
  margin: 0;
 }
@@ -104,7 +104,7 @@ html {
   width: 100%;
   padding: 78px 0px;
   height:100vh;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -156,7 +156,7 @@ span{
 #gallery{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.jpg);
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -216,7 +216,7 @@ span{
 
 #portfolio{ 
   height:100vh;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -231,7 +231,7 @@ span{
   align-items: center;
   width: 400px;
   height: 400px;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 50%;
@@ -270,7 +270,7 @@ span{
 }
 
 #contact{
-  background-color: #000000;
+  background-color:  rgb(0, 0, 0);
 }
 
 .footerContact{
