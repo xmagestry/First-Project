@@ -1,0 +1,252 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#about, #gallery, #portfolio, #contact #home{
+	scroll-behavior:smooth;  
+}
+
+.header{
+   min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-links{
+	flex: 1;
+	text-align: left;
+}
+
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 1s;
+}
+
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+
+.about{
+  display: flex;
+  width: 100%;
+  padding: 78px 0px;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+}
+
+.about img{
+  height: auto;
+  width: 420px;
+}
+
+.about-text{
+  width: 550px;
+}
+
+.main{
+  max-width: 95%;
+	padding: 2% 6%;
+	align-items: center;
+}
+
+.about-text h1{
+  color: #fff;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h3{
+  color: #fff;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+span{
+  color:#2A7BEE;
+}
+
+.about-text p{
+  color:#479ABDE3;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+.gallery{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#images-gal{
+  height: 360px;
+}
+
+.class a{
+  width:360px;
+}
+
+.gallery h1{
+  color: #fff;
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gallery a img{
+  margin-bottom:5px;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  padding: 5px;   
+  width: 363px;
+  height: 450px;
+  align-items: center;
+}
+
+#portfolio{
+  height:100vh;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.pbg{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 10px solid #141b4b;
+}
+
+.pbg img{
+  position: relative;
+  max-width: 380px;
+  bottom: 22px;
+}
+
+.portfolio-text{
+  max-width: 600px;
+  color:#fff;
+  text-align: right;
+}
+
+.portfolio-text h1{
+  font-size: 50px;
+}
+
+.portfolio-text h2{
+  color: #6c8ee5;
+  -webkit-text-stroke: .5px #fff;
+}
+
+.portfolio-text p {
+  font-size: 12px;
+  color: #8dc9db;
+}
+
+.portfolio-text h5 {
+  font-size: 15px;
+  color: #37c2ec;
+}
+
+#contact{
+  background-color: #000000;
+}
+
+.footerContact{
+  color: #fff7eb;
+  font-size: 24px;
+  text-align: center;
+}
+
+.footerBottom{
+  color: #fff7eb;
+  font-size: 15px;
+  text-align: center;
+}
+
+.footerContact ul li{
+  list-style: none;
+	display: inline-block;
+	padding: 4px 6px;
+	position: relative;
+  color: #fff7eb;
+}
+
+.footerContact  a:hover i{
+  color: rgb(0, 255, 255);
+}
+
+.topbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  font-size: 40px;
+}
